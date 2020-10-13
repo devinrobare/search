@@ -17,3 +17,4 @@ I tested how each search compared when looking for a number at the beginning of 
 I used the random module to create a large list and the time.perf_counter() to calculate how long each search took for each case.
 
 To make sure our recursive binary function was truly recursive, a recursion counter was used for testing, but I've commented that out. 
+I also tested to make sure my code would raise a ValueError if anything besides an integer was in the list, which has also been commented out.
