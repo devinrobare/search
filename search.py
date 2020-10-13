@@ -109,10 +109,6 @@ def main():
     lyst = sorted(lyst)
     setrecursionlimit(10**6)
 
-    '''print(lyst[-2])
-    print(lyst[3])
-    print(lyst[500550])'''
-
     '''For all 3 algorithms, report the following results:
     1. the first element of the sorted array
     2. a number at the middle of the sorted array
