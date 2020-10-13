@@ -2,7 +2,7 @@ import random
 import time
 import math
 from sys import setrecursionlimit
-from recursioncounter import RecursionCounter
+#from recursioncounter import RecursionCounter
 
 '''Implement the following search algorithms as predicate (boolean) functions. By definition,
 this means they return True only if the start_target is in the list, False otherwise. Assume the
@@ -33,7 +33,7 @@ def recursive_binary_search(lyst, target):
 
 
 def recursive_binary_search_helper(lyst, low_index, high_index, target):
-    RecursionCounter()
+    #RecursionCounter()
     if len(lyst) == 0:
         return False
     if len(lyst) == 1 and lyst[0] != target:
